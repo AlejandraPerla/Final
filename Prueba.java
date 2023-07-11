@@ -33,9 +33,9 @@ public class Prueba {
             if (trabaj.equals(trabajadores[i]) && tipoT[i].equals("Vendedor")) {
                 while (ventasA[i] == 0 && ventasB[i] == 0) {
                     System.out.println("Ingrese los datos de: " + trabajadores[i]);
-                    System.out.println("Cuántos vehículos tipo A ha vendido " + trabajadores[i] + " en el mes");
+                    System.out.println("Cuántos vehículos de tipo A ha vendido en el mes? " + trabajadores[i] + " en el mes");
                     ventasA[i] = input.nextInt();
-                    System.out.println("Cuántos vehículos tipo A ha vendido " + trabajadores[i] + " en el mes");
+                    System.out.println("Cuántos vehículos tipo A ha vendido en el mes? " + trabajadores[i] + " en el mes");
                     ventasB[i] = input.nextInt();
                     System.out.println("Ingrese el número de tardanzas de " + trabajadores[i] + " en el mes");
                     tardanzas[i] = input.nextInt();
@@ -53,9 +53,9 @@ public class Prueba {
             } else if (trabaj.equals(trabajadores[i]) && tipoT[i].equals("Gerente")) {
                 while (ventasMesA == 0) {
                     System.out.println("Ingrese los datos de: " + trabajadores[i]);
-                    System.out.println("Ingrese las ventas del mes del vehículo A");
+                    System.out.println("Cuántos vehículos del tipo A se han vendido en el mes");
                     ventasMesA = input.nextInt();
-                    System.out.println("Ingrese las ventas del mes del vehículo B");
+                    System.out.println("Cuántos vehículos del tipo B se han vendido en el mes");
                     ventasMesB = input.nextInt();
                     System.out.println("Ingrese el número de tardanzas de " + trabajadores[i] + " en el mes");
                     tardanzas[i] = input.nextInt();
